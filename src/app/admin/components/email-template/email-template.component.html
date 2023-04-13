@@ -1,0 +1,13 @@
+<h2 style="margin-top: 30px;">Email Template Section</h2>
+<mat-form-field style="width: 100%" appearance="outline">
+  <mat-label>Email Template Id</mat-label>
+  <input type="number" matInput [formControl]="idControl" />
+</mat-form-field>
+<div>
+  <button style="margin-right: 20px;" mat-raised-button color="warn" (click)="onReadAll()">Read All</button
+  ><button style="margin-right: 20px;" mat-raised-button color="warn" (click)="onReadById()">Read By Id</button
+  ><button style="margin-right: 20px;" mat-raised-button color="warn" (click)="onCreate()">Create</button
+  ><button style="margin-right: 20px;" mat-raised-button color="warn" (click)="onUpdate()">Update</button
+  ><button style="margin-right: 20px;" mat-raised-button color="warn" (click)="onDelete()">Delete</button>
+</div>
+<hr />

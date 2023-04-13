@@ -1,0 +1,13 @@
+<h2 style="margin-top: 30px;">Job Title Section</h2>
+<mat-form-field style="width: 100%" appearance="outline">
+  <mat-label>Job Title Id</mat-label>
+  <input type="number" matInput [formControl]="idControl" />
+</mat-form-field>
+<div>
+  <button style="margin-right: 20px;" mat-raised-button color="accent" (click)="onReadAll()">Read All</button
+  ><button style="margin-right: 20px;" mat-raised-button color="accent" (click)="onReadById()">Read By Id</button
+  ><button style="margin-right: 20px;" mat-raised-button color="accent" (click)="onCreate()">Create</button
+  ><button style="margin-right: 20px;" mat-raised-button color="accent" (click)="onUpdate()">Update</button
+  ><button style="margin-right: 20px;" mat-raised-button color="accent" (click)="onDelete()">Delete</button>
+</div>
+<hr />

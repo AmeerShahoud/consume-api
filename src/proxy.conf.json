@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+      "target": "http://eblaepm.no-ip.org:9092/cdi/api/v1",
+      "secure": false,
+      "logLevel": "debug"
+  }
+}
